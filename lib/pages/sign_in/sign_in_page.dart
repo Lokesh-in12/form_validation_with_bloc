@@ -22,7 +22,8 @@ class SignInPage extends StatelessWidget {
             .signInWithEmailAndPassword(email: email, password: password);
         if (userCredintials.user != null) {
           print("user is =>>> ${userCredintials.user}");
-          Navigator.of(context).pushReplacementNamed('/profile');
+          Navigator.popUntil(context, (route) => route.isFirst);
+          Navigator.pushReplacementNamed(context, '/profile');
         }
       } catch (e) {
         print(e);
