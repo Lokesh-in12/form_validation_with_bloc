@@ -74,9 +74,8 @@ class SignInPage extends StatelessWidget {
                         SignInSubmittedEvent(
                             email: _controllerEmail.text,
                             password: _controllerPass.text));
-                    Navigator.of(context).pushReplacementNamed('/profile',arguments: {
-                      "email" : _controllerEmail.text
-                    });
+                    Navigator.of(context).pushReplacementNamed('/profile',
+                        arguments: {"email": _controllerEmail.text});
                   },
                 );
               }
