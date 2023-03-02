@@ -1,42 +1,41 @@
 {
   "project_info": {
-    "project_number": "154458069484",
-    "project_id": "initialflutter-59339",
-    "storage_bucket": "initialflutter-59339.appspot.com"
+    "project_number": "198892425076",
+    "project_id": "fir-authandroid-26c49",
+    "storage_bucket": "fir-authandroid-26c49.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:154458069484:android:e6a09371cbbe86c6a808c9",
+        "mobilesdk_app_id": "1:198892425076:android:4fd7e01a6012f84b0a2621",
         "android_client_info": {
           "package_name": "com.example.form_validation_with_bloc"
         }
       },
       "oauth_client": [
         {
-          "client_id": "154458069484-asj4228d7n643lk7h4pbn4uef6g713tf.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.form_validation_with_bloc",
-            "certificate_hash": "e382a9e431d389f8b76e9a1b116b6f37daf60117"
-          }
-        },
-        {
-          "client_id": "154458069484-6tumrns6534m9jr26gt31uibu1tcr5hh.apps.googleusercontent.com",
+          "client_id": "198892425076-flspn9k3r30f5nqt8a40q07k8ban2pk5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCBkVltNVDswObPgm9SStX1kgvrrnzlyNA"
+          "current_key": "AIzaSyBzcUQGHWCIYmtynlQ6b47KabKZ98ETFlY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "154458069484-6tumrns6534m9jr26gt31uibu1tcr5hh.apps.googleusercontent.com",
+              "client_id": "198892425076-flspn9k3r30f5nqt8a40q07k8ban2pk5.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "198892425076-agglq11273fogc9id286g0op2lcbvabm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.formValidationWithBloc"
+              }
             }
           ]
         }
