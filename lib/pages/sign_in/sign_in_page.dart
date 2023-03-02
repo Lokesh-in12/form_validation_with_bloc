@@ -80,7 +80,13 @@ class SignInPage extends StatelessWidget {
                 );
               }
                   // },
-                  )
+                  ),
+              SizedBox(
+                height: 8,
+              ),
+              CupertinoButton(
+                  child: Text("Create New Account"),
+                  onPressed: () => Navigator.of(context).pushNamed("/signup"))
             ],
           ),
         ),

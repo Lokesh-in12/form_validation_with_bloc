@@ -4,6 +4,7 @@ import 'package:form_validation_with_bloc/pages/homepage.dart';
 import 'package:form_validation_with_bloc/pages/profile_page.dart';
 import 'package:form_validation_with_bloc/pages/sign_in/bloc/signin_bloc.dart';
 import 'package:form_validation_with_bloc/pages/sign_in/sign_in_page.dart';
+import 'package:form_validation_with_bloc/pages/sign_up/sign_up_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
         '/': (context) => const HomePage(),
         '/signin': (context) => BlocProvider(
             create: (context) => SignInBloc(), child: SignInPage()),
-        '/profile' : (context) => MyProfilePage()
+        '/profile' : (context) => MyProfilePage(),
+        '/signup' : (context) => SignUpPage()
       },
     );
   }
